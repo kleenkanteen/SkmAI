@@ -7,7 +7,7 @@ export default function HomePage() {
         <img src="/logo.png" alt="Logo" width="450" height="200" style={{ objectFit: 'cover', objectPosition: 'center' }} />
       </div>
       <div className="container flex flex-col items-center justify-center gap-12 px-4">
-        <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[4rem]">
+        <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[4rem] text-center">
           <span className="bg-gradient-to-r from-pink-200 via-pink-300 to-pink-400 inline-block text-transparent bg-clip-text">AI-Powered</span>
           {' '}
           Youtube Video Search
@@ -23,11 +23,11 @@ export default function HomePage() {
         </h2>
 
         <Link
-          className="max-w-lg rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
+          className="max-w-lg rounded-xl border-4 border-white bg-pink-400/70 p-4 text-white hover:bg-pink-400/80"
           href="https://chromewebstore.google.com/detail/skmai-ai-powered-youtube/nkkklchgjghdppjfponpogcfgggchjef"
           target="_blank"
         >
-          <h3 className="text-2xl font-bold">Get it from the Chrome web store →</h3>
+          <h3 className="text-2xl font-bold">Get the chrome extension →</h3>
         </Link>
 
         <video width="960" height="720" controls preload="none">
