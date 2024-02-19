@@ -30,16 +30,8 @@ export default function HomePage() {
           <h3 className="text-2xl font-bold">Get the chrome extension →</h3>
         </Link>
 
-        <video width="960" height="720" controls preload="none">
-          <source src="/demo.mp4" type="video/mp4" />
-          <track
-            src="/demo.mp4"
-            kind="subtitles"
-            label="English"
-          />
-          Your browser does not support the video tag.
-        </video>
-
+        <iframe className="border-0" width="960" height="720" src="https://www.tella.tv/video/clssb4pey023c0glafsa4g6tl/embed?b=0&title=0&a=0&loop=1&t=0&muted=0&wt=0" allowFullScreen></iframe>
+      
       </div>
     </main>
   );
